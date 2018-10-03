@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		01F525D3A05BA19D1B457567 /* libPods-LYSFMDBManagerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CAD9BA7157942600DAD4CC /* libPods-LYSFMDBManagerDemoUITests.a */; };
+		3E67FE4921646BA00021ECB5 /* LYSFMDBCreateTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE4821646BA00021ECB5 /* LYSFMDBCreateTable.m */; };
+		3E67FE4C21646C720021ECB5 /* LYSFMDBAddData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE4B21646C720021ECB5 /* LYSFMDBAddData.m */; };
+		3E67FE4F21646CAE0021ECB5 /* LYSFMDBDeleteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE4E21646CAE0021ECB5 /* LYSFMDBDeleteData.m */; };
+		3E67FE5221646CDD0021ECB5 /* LYSFMDBUpdateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE5121646CDD0021ECB5 /* LYSFMDBUpdateData.m */; };
+		3E67FE5521646D0C0021ECB5 /* LYSFMDBQueryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE5421646D0C0021ECB5 /* LYSFMDBQueryData.m */; };
+		3E67FE5821646D930021ECB5 /* LYSFMDBFunData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE5721646D930021ECB5 /* LYSFMDBFunData.m */; };
+		3E67FE5B21646DE00021ECB5 /* LYSFMDBBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE5A21646DE00021ECB5 /* LYSFMDBBase.m */; };
 		8774251473B473EA012355AA /* libPods-LYSFMDBManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42229628044677F15EA1AC29 /* libPods-LYSFMDBManagerDemo.a */; };
 		960BFFB88347420DF5C9B695 /* libPods-LYSFMDBManagerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CC2738AD2314971246F62A /* libPods-LYSFMDBManagerDemoTests.a */; };
 		CCE3A00C210998E2009B6FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE3A00B210998E2009B6FEA /* AppDelegate.m */; };
@@ -41,6 +48,20 @@
 /* Begin PBXFileReference section */
 		1DA8C166BA99B47B5A212B97 /* Pods-LYSFMDBManagerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSFMDBManagerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYSFMDBManagerDemoUITests/Pods-LYSFMDBManagerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		22CC2738AD2314971246F62A /* libPods-LYSFMDBManagerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYSFMDBManagerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E67FE4721646BA00021ECB5 /* LYSFMDBCreateTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBCreateTable.h; sourceTree = "<group>"; };
+		3E67FE4821646BA00021ECB5 /* LYSFMDBCreateTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBCreateTable.m; sourceTree = "<group>"; };
+		3E67FE4A21646C720021ECB5 /* LYSFMDBAddData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBAddData.h; sourceTree = "<group>"; };
+		3E67FE4B21646C720021ECB5 /* LYSFMDBAddData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBAddData.m; sourceTree = "<group>"; };
+		3E67FE4D21646CAE0021ECB5 /* LYSFMDBDeleteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBDeleteData.h; sourceTree = "<group>"; };
+		3E67FE4E21646CAE0021ECB5 /* LYSFMDBDeleteData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBDeleteData.m; sourceTree = "<group>"; };
+		3E67FE5021646CDD0021ECB5 /* LYSFMDBUpdateData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBUpdateData.h; sourceTree = "<group>"; };
+		3E67FE5121646CDD0021ECB5 /* LYSFMDBUpdateData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBUpdateData.m; sourceTree = "<group>"; };
+		3E67FE5321646D0C0021ECB5 /* LYSFMDBQueryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBQueryData.h; sourceTree = "<group>"; };
+		3E67FE5421646D0C0021ECB5 /* LYSFMDBQueryData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBQueryData.m; sourceTree = "<group>"; };
+		3E67FE5621646D930021ECB5 /* LYSFMDBFunData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBFunData.h; sourceTree = "<group>"; };
+		3E67FE5721646D930021ECB5 /* LYSFMDBFunData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBFunData.m; sourceTree = "<group>"; };
+		3E67FE5921646DE00021ECB5 /* LYSFMDBBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSFMDBBase.h; sourceTree = "<group>"; };
+		3E67FE5A21646DE00021ECB5 /* LYSFMDBBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSFMDBBase.m; sourceTree = "<group>"; };
 		42229628044677F15EA1AC29 /* libPods-LYSFMDBManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYSFMDBManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CAD9BA7157942600DAD4CC /* libPods-LYSFMDBManagerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYSFMDBManagerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808BEB7EA6E76B1D8B2580C5 /* Pods-LYSFMDBManagerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSFMDBManagerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYSFMDBManagerDemoTests/Pods-LYSFMDBManagerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +200,20 @@
 		CCE3A03C2109992A009B6FEA /* LYSFMDBManager */ = {
 			isa = PBXGroup;
 			children = (
+				3E67FE5921646DE00021ECB5 /* LYSFMDBBase.h */,
+				3E67FE5A21646DE00021ECB5 /* LYSFMDBBase.m */,
+				3E67FE4721646BA00021ECB5 /* LYSFMDBCreateTable.h */,
+				3E67FE4821646BA00021ECB5 /* LYSFMDBCreateTable.m */,
+				3E67FE4A21646C720021ECB5 /* LYSFMDBAddData.h */,
+				3E67FE4B21646C720021ECB5 /* LYSFMDBAddData.m */,
+				3E67FE4D21646CAE0021ECB5 /* LYSFMDBDeleteData.h */,
+				3E67FE4E21646CAE0021ECB5 /* LYSFMDBDeleteData.m */,
+				3E67FE5021646CDD0021ECB5 /* LYSFMDBUpdateData.h */,
+				3E67FE5121646CDD0021ECB5 /* LYSFMDBUpdateData.m */,
+				3E67FE5321646D0C0021ECB5 /* LYSFMDBQueryData.h */,
+				3E67FE5421646D0C0021ECB5 /* LYSFMDBQueryData.m */,
+				3E67FE5621646D930021ECB5 /* LYSFMDBFunData.h */,
+				3E67FE5721646D930021ECB5 /* LYSFMDBFunData.m */,
 				CCE3A03D2109996E009B6FEA /* LYSFMDBManager.h */,
 				CCE3A03E2109996E009B6FEA /* LYSFMDBManager.m */,
 			);
@@ -377,8 +412,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE3A00F210998E2009B6FEA /* ViewController.m in Sources */,
+				3E67FE5821646D930021ECB5 /* LYSFMDBFunData.m in Sources */,
+				3E67FE4C21646C720021ECB5 /* LYSFMDBAddData.m in Sources */,
 				CCE3A01A210998E3009B6FEA /* main.m in Sources */,
+				3E67FE5521646D0C0021ECB5 /* LYSFMDBQueryData.m in Sources */,
+				3E67FE5B21646DE00021ECB5 /* LYSFMDBBase.m in Sources */,
+				3E67FE4921646BA00021ECB5 /* LYSFMDBCreateTable.m in Sources */,
+				3E67FE5221646CDD0021ECB5 /* LYSFMDBUpdateData.m in Sources */,
 				CCE3A00C210998E2009B6FEA /* AppDelegate.m in Sources */,
+				3E67FE4F21646CAE0021ECB5 /* LYSFMDBDeleteData.m in Sources */,
 				CCE3A03F2109996E009B6FEA /* LYSFMDBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
