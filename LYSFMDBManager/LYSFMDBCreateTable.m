@@ -8,7 +8,7 @@
 
 #import "LYSFMDBCreateTable.h"
 @interface LYSFMDBCreateTable ()
-@property(nonatomic, strong, readwrite) NSDictionary<NSString *, NSString *> *columnDict;
+
 @end
 @implementation LYSFMDBCreateTable
 #pragma mark - 创建数据库表 -

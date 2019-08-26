@@ -17,6 +17,8 @@
 		3E67FE5B21646DE00021ECB5 /* LYSFMDBBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67FE5A21646DE00021ECB5 /* LYSFMDBBase.m */; };
 		8774251473B473EA012355AA /* libPods-LYSFMDBManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42229628044677F15EA1AC29 /* libPods-LYSFMDBManagerDemo.a */; };
 		960BFFB88347420DF5C9B695 /* libPods-LYSFMDBManagerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CC2738AD2314971246F62A /* libPods-LYSFMDBManagerDemoTests.a */; };
+		CCBE9FED2313AEB500047743 /* LYSFMDBManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FEC2313AEB500047743 /* LYSFMDBManager.podspec */; };
+		CCBE9FEF2313AEC900047743 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCBE9FEE2313AEC900047743 /* README.md */; };
 		CCE3A00C210998E2009B6FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE3A00B210998E2009B6FEA /* AppDelegate.m */; };
 		CCE3A00F210998E2009B6FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE3A00E210998E2009B6FEA /* ViewController.m */; };
 		CCE3A012210998E2009B6FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3A010210998E2009B6FEA /* Main.storyboard */; };
@@ -67,6 +69,8 @@
 		808BEB7EA6E76B1D8B2580C5 /* Pods-LYSFMDBManagerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSFMDBManagerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYSFMDBManagerDemoTests/Pods-LYSFMDBManagerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C17F021F477C798EF26AAD97 /* Pods-LYSFMDBManagerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSFMDBManagerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYSFMDBManagerDemoUITests/Pods-LYSFMDBManagerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CA3D97EA4290F8029D10FC39 /* Pods-LYSFMDBManagerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSFMDBManagerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYSFMDBManagerDemoTests/Pods-LYSFMDBManagerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCBE9FEC2313AEB500047743 /* LYSFMDBManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSFMDBManager.podspec; path = ../../LYSFMDBManager.podspec; sourceTree = "<group>"; };
+		CCBE9FEE2313AEC900047743 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		CCE3A007210998E2009B6FEA /* LYSFMDBManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSFMDBManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE3A00A210998E2009B6FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCE3A00B210998E2009B6FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 			children = (
 				CCE3A00A210998E2009B6FEA /* AppDelegate.h */,
 				CCE3A00B210998E2009B6FEA /* AppDelegate.m */,
+				CCBE9FEC2313AEB500047743 /* LYSFMDBManager.podspec */,
+				CCBE9FEE2313AEC900047743 /* README.md */,
 				CCE3A03C2109992A009B6FEA /* LYSFMDBManager */,
 				CCE3A00D210998E2009B6FEA /* ViewController.h */,
 				CCE3A00E210998E2009B6FEA /* ViewController.m */,
@@ -329,6 +335,8 @@
 			files = (
 				CCE3A017210998E3009B6FEA /* LaunchScreen.storyboard in Resources */,
 				CCE3A014210998E3009B6FEA /* Assets.xcassets in Resources */,
+				CCBE9FEF2313AEC900047743 /* README.md in Resources */,
+				CCBE9FED2313AEB500047743 /* LYSFMDBManager.podspec in Resources */,
 				CCE3A012210998E2009B6FEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,16 +600,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HKHKXULF6R;
 				INFOPLIST_FILE = LYSFMDBManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSFMDBManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZJCS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = ZJCS;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -612,16 +620,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HKHKXULF6R;
 				INFOPLIST_FILE = LYSFMDBManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSFMDBManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZJCS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = ZJCS;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

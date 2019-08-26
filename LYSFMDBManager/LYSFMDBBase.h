@@ -21,8 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LYSFMDBBase : NSObject
 @property(nonatomic, copy) NSString *filePath;
-@property(nonatomic, strong, readonly) FMDatabaseQueue *queue;
-@property(nonatomic, strong, readonly) NSDictionary<NSString *, NSString *> *columnDict;
+@property(nonatomic, strong) FMDatabaseQueue *queue;
+@property(nonatomic, strong) NSDictionary<NSString *, NSString *> *columnDict;
 // Documents
 + (NSString *)document;
 // Library

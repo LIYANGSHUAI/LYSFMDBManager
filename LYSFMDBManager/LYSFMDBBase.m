@@ -9,7 +9,7 @@
 #import "LYSFMDBBase.h"
 
 @interface LYSFMDBBase ()
-@property(nonatomic, strong, readwrite) FMDatabaseQueue *queue;
+
 @end
 
 @implementation LYSFMDBBase
